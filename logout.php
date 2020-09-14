@@ -11,6 +11,6 @@ $google_client->revokeToken();
 session_destroy();
 
 //redirect page to index.php
-header('location:https://preneur-news.herokuapp.com');
+header('Location:https://preneur-news.herokuapp.com');
 
 ?>
