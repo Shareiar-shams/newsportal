@@ -18,7 +18,7 @@ $google_client->setClientId('179557976373-a80jmie8fva67oaguut2h02m3maomkpr.apps.
 $google_client->setClientSecret('vdid2fDQ7vO3E_FqUZ06Buog');
 
 //Set the OAuth 2.0 Redirect URI
-$google_client->setRedirectUri('http://localhost/newsportal/login.php');
+$google_client->setRedirectUri('https://preneur-news.herokuapp.com/login.php');
 
 // to get the email and profile 
 $google_client->addScope('email');
